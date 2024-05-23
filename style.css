@@ -201,6 +201,7 @@ section h2 {
 }
 
 #my-work .Object-Detection,
+#my-work .Antenna-design,
 #my-work .Sign-language,
 #my-work .Rental-systems {
   display: flex;
@@ -212,6 +213,7 @@ section h2 {
 }
 
 #my-work .Object-Detection p,
+#my-work .Antenna-design p,
 #my-work .Sign-language p,
 #my-work .Rental-systems p {
   line-height: 1.6;
@@ -287,6 +289,35 @@ section h2 {
 
 #Sign_language_shareBtn:hover {
   background-color: #005a87;
+}
+
+/* Service Section*/
+#services .Services {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+#services .Data-preprocessing,
+#services .Data-analysis,
+#services .Model-integration,
+#services .Model-training {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  height: 100%; /* Ensure equal height */
+}
+
+#services .Data-preprocessing p,
+#services .Data-analysis p,
+#services .Model-integration p,
+#services .Model-training p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
 }
 
 /* Footer Styles */
